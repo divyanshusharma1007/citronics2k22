@@ -1,0 +1,239 @@
+.sec2 {
+  background: linear-gradient(to right, #161616, #000000);
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.notecontainer {
+  color: white;
+  background: linear-gradient(to right, #161616, #000000);
+  border: 2px solid white;
+  box-shadow: 0px 0px 5px 2px rgb(255, 151, 151);
+  align-items: center;
+}
+.note {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+#note {
+  display: inline;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  left: 80px;
+  top: 2px;
+}
+.cbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+.cbattu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: rgb(14, 14, 14);
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb845, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb845, #fd1d1d, #833ab4);
+  transition: all 0.3s ease;
+}
+
+.cont {
+  border: 4px solid white;
+  color: white;
+  display: flex;
+  /* flex-wrap: ; */
+  width: 35%;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 9px 3px rgb(255, 151, 151);
+  cursor: pointer;
+}
+.para {
+  padding: 10px;
+  /* display: none; */
+  text-align: justify;
+  padding: 20px;
+  color: yellow;
+  animation: colchange 15s steps(5) infinite;
+}
+@keyframes colchange {
+  20% {
+    color: rgb(235, 129, 129);
+  }
+  40% {
+    color: rgb(137, 209, 134);
+  }
+  60% {
+    color: rgb(126, 126, 226);
+  }
+  80% {
+    color: rgb(216, 233, 123);
+  }
+  100% {
+    color: rgb(255, 0, 0);
+  }
+}
+.evhead {
+  color: white;
+  background: linear-gradient(to right, #161616, #000000);
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 25px;
+  cursor: not-allowed;
+}
+
+/* raj component css */
+.secondsec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  background: linear-gradient(to right, #161616, #000000);
+  overflow: hidden;
+}
+
+.main_content {
+  font-size: 2rem;
+  background: #ed4264; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffedbc,
+    #ed4264
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffedbc,
+    #ed4264
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.main_content h2 {
+  background: #b24592;
+  background: -webkit-linear-gradient(to left, #f15f79, #b24592);
+  background: linear-gradient(to left, #f15f79, #b24592);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-right: 460px;
+  height: 40px;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-right: 200px;
+  outline: none;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 12px;
+  border: 2px solid #ee0979;
+  border-radius: 6px;
+}
+
+.btncontainer a :hover {
+  background-color: cornsilk;
+}
+
+.main_content p {
+  margin-top: 20px;
+  margin-left: 1.2%;
+}
+
+.box {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  padding: 40px;
+  margin-left: 92px;
+  margin-right: 250px;
+  background: #b24592;
+  background: -webkit-linear-gradient(to left, #f15f79, #b24592);
+  background: linear-gradient(to left, #f15f79, #b24592);
+  border-radius: 12px;
+}
+
+.img {
+  margin: 22px;
+  display: flex;
+  float: left;
+}
+
+.imgcontainer p {
+  display: block;
+  margin: 4px;
+}
+
+.imgcontainer h3 {
+  margin-top: -25px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+.img {
+  height: 50px;
+  width: 50px;
+  margin: 34px;
+} 
+
+
+.homecontainer .static-text {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bolder;
+  margin-top: 1.3%;
+  font-family: 'Nanum Pen Script', cursive;
+  
+}
+
+
+.dynamic-text {
+  margin-left: 15px;
+  margin-top: 10px;
+  height: 80px;
+  line-height: 90px;
+  overflow: hidden;
+  line-height: 90px;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+

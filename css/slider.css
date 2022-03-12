@@ -1,0 +1,76 @@
+/* when you want to change the background color then you can easily do it by changing heres code  */
+body {
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    158deg,
+    rgba(2, 0, 36, 1) 11%,
+    rgba(19, 19, 152, 1) 48%,
+    rgb(40, 84, 202) 100%
+  ); */
+
+  /* background: #252525; */
+}
+
+.sliderbox {
+    display: flex;
+    /* border: 2px solid red; */
+    height: 672px;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -530px;
+}
+.slider-heading {
+  display: block;
+  color: white;
+  margin-top: 20px;
+  font-size: 50px;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  height: 79%;
+  width: 100%;
+}
+.slider {
+  border: 5px solid rgb(255, 197, 197);
+  /* box-shadow: 1px 2px 10px 3px rgb(240, 122, 255); */
+   box-shadow: 1px 2px 10px 3px #EDE574;  
+  width: 60%;
+  height: 110%;
+  position: relative;
+  left: 20%;
+  border-radius: 10px;
+  bottom: 25px;
+  bottom: 10px;
+  background: url("../media/ent.webp");
+  background-size: 100% 100%;
+  animation: slider 30s infinite linear;
+  transition: all linear;
+}
+@keyframes slider {
+  0% {
+    background: url("../media/enterpreneurship.webp");
+    background-size: 100% 100%;
+    /* background: url("../media/sslider.jpeg"); */
+  }
+  17% {
+    background: url("../media/pharma.webp");
+    background-size: 100% 100%;
+  }
+  34% {
+    background: url("../media/onspot.webp");
+    background-size: 100% 100%;
+  }
+  50% {
+    background: url("../media/robotics.webp");
+    background-size: 100% 100%;
+  }
+  67% {
+    background: url("../media/software.webp");
+    background-size: 100% 100%;
+  }
+  87%{
+      background: url("../media/software.webp");
+    background-size: 100% 100%;
+  }
+}

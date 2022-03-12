@@ -1,0 +1,265 @@
+   /* about citronics */
+   .para {
+          color: white;
+          padding: 3%;
+          text-align: center;
+          font-weight: 100;
+          word-spacing: 4px;
+          margin: 0px;
+          line-height: 35px;
+          letter-spacing: 2px;
+          font-size: 21px;
+          text-shadow: 1px 0px 1px #ffff98;
+          padding-top: 2px;
+          animation: move 2s steps(5) infinite;
+     }
+
+     .citronics {
+
+          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          animation: move 2s steps(5) infinite;
+          font-size: 24px;
+          font-style: italic;
+          font-weight: bolder;
+          font-size: 2rem;
+          background: #ed4264;
+          background: -webkit-linear-gradient(to right, #ffedbc, #ed4264);
+          background: linear-gradient(to right, #ffedbc, #ed4264);
+          background-size: 100%;
+          -webkit-background-clip: text;
+          -moz-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -moz-text-fill-color: transparent;
+          /* text-transform: uppercase; */
+          margin-bottom: 32px;
+
+     }
+
+     .aboutus {
+          text-align: center;
+          color: wheat;
+          position: relative;
+          margin: 10px;
+          top: 0px;
+          left: 0px;
+          font-size: 3em;
+          margin-top: 20px;
+          letter-spacing: 5px;
+          animation: colchange 2s steps(5) infinite;
+     }
+
+     .ale {
+          animation: move 2s steps(5) infinite;
+     }
+
+     @keyframes move {
+          50% {
+               font-style: italic;
+          }
+
+          100% {
+               font-style: normal;
+          }
+     }
+
+     @keyframes colchange {
+          50% {
+               color: wheat;
+          }
+
+          100% {
+               color: white;
+          }
+     }
+
+     .sp {
+          text-align: center;
+          display: flex;
+          justify-content: center;
+     }
+
+     .borderbox {
+          border-bottom: 3.5px solid white;
+          width: 80%;
+          height: 2px;
+          box-shadow: 1px 1px 2px rgb(255, 101, 11);
+          border-style: dashed;
+          margin: 20px;
+     }
+
+
+     /* about History */
+     
+     .history {
+          text-align: center;
+          color: #ffc4c4;
+          letter-spacing: 3px;
+          font-size: 3em;
+          margin-top: 23px
+     }
+
+     .history::before {
+          content: " ";
+          position: absolute;
+          width: 286px;
+          height: 64px;
+          border-bottom: 4px solid white;
+          border-radius: -8px;
+          animation: under 12s infinite linear;
+     }
+
+     @keyframes under {
+          0% {
+               width: 20px;
+               border-bottom: 4px solid white;
+          }
+
+          50% {
+               width: 286px;
+               border-bottom: 4px solid rgb(255, 0, 0);
+          }
+
+          100% {
+               width: 20px;
+               border-bottom: 4px solid rgb(229, 255, 0);
+          }
+     }
+
+     .his {
+          text-align: center;
+          color: floralwhite;
+          margin-top: 9px;
+          letter-spacing: 2px;
+          font-weight: bolder;
+          word-spacing: 17px;
+          font-size: 21px;
+          padding: 4%;
+          text-shadow: 1px 1px 2px #ff4a4a;
+     }
+
+
+     /* about Cdgi */
+
+     
+     .clg {
+          color: antiquewhite;
+          text-align: center;
+          margin-top: 20px;
+          font-size: 31px;
+          line-height: 37px;
+          text-shadow: 0px 1px 22px #ffa8a8;
+          animation: shadow 5s linear;
+     }
+
+     .clgd {
+          text-align: center;
+          color: #fff0d3;
+          margin-top: 9px;
+          letter-spacing: 2px;
+          font-weight: bolder;
+          word-spacing: 17px;
+          font-size: 21px;
+          padding: 4%;
+          text-shadow: 1px 1px 2px #1e1e1e;
+     }
+
+     .abclg {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 20px;
+     }
+
+     .logos {
+          padding: 2%;
+     }
+
+     @keyframes shadow {
+          25% {
+               text-shadow: 0px 1px 22px #ffa8a8;
+          }
+
+          50% {
+               text-shadow: 0px 1px 22px #f7ff82;
+          }
+
+          75% {
+               text-shadow: 0px 1px 22px #aeffae;
+          }
+     }
+
+     .logs {
+          display: none;
+     }
+
+
+     /* about for college  */
+       /* You can change the body color from the here  */
+     body {
+          background: rgb(30, 30, 30);
+          background: linear-gradient(6deg, rgba(30, 30, 30, 1) 35%, rgba(3, 3, 3, 1) 100%);
+     }
+
+     /* .logs {
+          width: 156px;
+     }
+
+     #logs {
+          padding-right: 37px;
+          height: 165px;
+     } */
+     .clg {
+          color: antiquewhite;
+          text-align: center;
+          margin-top: 20px;
+          font-size: 31px;
+          line-height: 37px;
+          text-shadow: 0px 1px 22px #ffa8a8;
+          animation: shadow 5s linear;
+     }
+
+     .clgd {
+          text-align: center;
+          color: #fff0d3;
+          margin-top: 9px;
+          letter-spacing: 2px;
+          font-weight: bolder;
+          word-spacing: 17px;
+          font-size: 21px;
+          padding: 4%;
+          text-shadow: 1px 1px 2px #1e1e1e;
+     }
+
+     .abclg {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 20px;
+     }
+     @media screen and (max-width:800px) {
+          /* .logos {
+               display: none;
+          } */
+.logos {
+    padding: 2%;
+    display: none;
+}
+          .logs {
+               display: block;
+               margin: 15px;
+               height: 129px;
+          }
+
+          .mobilogs {
+               display: flex;
+               justify-content: space-between;
+          }
+
+          .abclg {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               margin: 20px;
+               flex-direction: column;
+          }
+     }

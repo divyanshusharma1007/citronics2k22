@@ -1,0 +1,27 @@
+    /* nonumpenscript  */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Licorice&family=Nanum+Pen+Script&family=Roboto+Mono:wght@100&family=Rock+3D&display=swap');
+
+
+     /* setting body properties */
+     body {
+          padding: 0px 0px 0px 0px;
+          margin: 0px 0px 0px 0px;
+          display: "border-box";
+     }
+
+     /* setting fonts */
+     .homcontainer .static-text {
+          font-family: 'Nanum Pen Script', cursive;
+     }
+
+     .homcontainer .dynamic-text {
+          font-family: 'Nanum Pen Script', cursive;
+     }
+
+     .anch {
+          text-decoration: none;
+          color: black;
+     }
+
+
+     

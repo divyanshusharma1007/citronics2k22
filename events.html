@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Events</title>
+
+     <style>
+          @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+     </style>
+</head>
+<!-- linking style sheets  -->
+<link rel="stylesheet" href="./css/footer.css">
+<link rel="stylesheet" href="./css/navbar.css">
+<link rel="stylesheet" href="./css/events1.css">
+<link rel="stylesheet" href="./css/slider.css">
+<link rel="stylesheet" href="./css/responsive.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+
+
+<!-- fetching data .js here because using data . js we add the dynamic content here  -->
+
+</script>
+</script>
+<style>
+     .btn-grad {
+          background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF 51%, #ECE9E6 100%)
+     }
+
+     .btn-grad {
+          margin: 10px;
+          padding: 15px 45px;
+          text-align: center;
+          text-transform: uppercase;
+          font-weight: bolder;
+          transition: 0.5s;
+          background-size: 200% auto;
+          color: rgb(0, 0, 0);
+          box-shadow: 0 0 10px #eee;
+          border-radius: 109px;
+          display: block;
+     }
+
+     .btn-grad:hover {
+          background-position: right center;
+          /* change the direction of the change here */
+          color: rgb(255, 0, 0);
+          text-decoration: none;
+     }
+
+     @media screen and (max-width: 1100px) {
+          .exampleimg {
+               height: 43%;
+               width: 100%;
+               padding-top: 20px;
+          }
+
+     }
+
+     .exampleimg {
+          height: 43%;
+          width: 100%;
+          padding-top: 20px;
+     }
+
+     .map {
+          height: 24vh;
+          width: 22vw;
+          margin-left: 20px;
+     }
+
+     #map {
+          display: none;
+     }
+
+     @media screen and (max-width:600px) {
+          .map {
+               height: 19vh;
+               width: 34vw;
+               margin-left: 20px;
+          }
+     }
+</style>
+
+<body>
+     <!-- navbar  -->
+     <!-- NAVBAR SECTION  -->
+
+
+     <nav id="navbar">
+          <div class="navbar_container">
+               <img src="media/citronicslogo main logo.webp" id="navbarlogo" id="logoimg" alt="img" srcset="">
+               <!-- <img src="./logo.webp" id="navbarlogo" id="logoimg" alt="img" srcset=""> -->
+
+               <!-- code for navabr  -->
+               <!-- for running hambar we use the same code  -->
+               <ul id="navbar_menu">
+                    <li class="navbar_items">
+                         <a href="./index.html" class="navbar_links" id="homepage">HOME</a>
+                    </li>
+                    <li class="navbar_items">
+                         <a href="./events.html" class="navbar_links" id="event">EVENT</a>
+                    </li>
+
+                    <li class="navbar_item">
+                         <a href="./about.html" class="navbar_links" id="about">ABOUT</a>
+
+                    </li>
+                    <li class="navbar_btn">
+                         <a href="https://cdgi.edu.in/citronics/Registration/index.php" class="button"
+                              id="register">REGISTER</a>
+                    </li>
+               </ul>
+               <div>
+                    <!-- code for hamburger /creating hamburger icon  -->
+                    <div class="ham" id="hamicon">
+                         <span class="hamline" class="hamrunner"></span>
+                         <span class="hamline" class="hamrunner"></span>
+                         <span class="hamline" class="hamrunner"></span>
+                    </div>
+               </div>
+          </div>
+     </nav>
+
+     <!-- code for slider box / making slider box  -->
+     <div class="otr" id="ham_id"></div>
+     <div class="sliderbox">
+          <div class="slider-heading">"Events Mania"</div>
+          <div class="slider">
+          </div>
+     </div>
+
+     <!-- code for event section  /events carrd and it container -->
+     <div class="eventscard_container">
+          <h1 class="eventcard_head">"Explore Events"</h1>
+          <div class="eventcard_wrapper">
+               <!-- event card -->
+               <div class="eventcard">
+                    <h2 class="card_head">Entertainment</h2>
+                    <div class="evenbtn"><button class="card_btn" id="entertainment_btn">Events</button></div>
+                    <div class="menu_container" id="entertainment_menu">
+                         <!-- <span class="span_class" id="saregama_class">1. sa re ga ma</span> -->
+                         <span class="span_class" id="openmic_id">1. open mic</span>
+                         <span class="span_class" id="dance_id">2. dance (solo & duet)</span>
+                         <span class="span_class" id="bandwar_id">3. band war</span>
+                         <!-- <span class="span_class" id="treasurehunt_id">4. Treasure hunt</span> -->
+                    </div>
+               </div>
+               <!-- event card  -->
+               <div class="eventcard">
+                    <h2 class="card_head">Mechanical</h2>
+                    <div class="evenbtn"><button class="card_btn" id="mechtronics_btn">Events</button></div>
+
+                    <div class="menu_container" id="mechatronic_menu">
+
+                         <span class="span_class" id="cad_id">1. cad championship</span>
+                         <span class="span_class" id="AutoJunkies_id">2. Autojunkies</span>
+                         <span class="span_class" id="officeball_id">3. officeball </span>
+                         <span class="span_class" id="switchingpuzzle_id">4. switching puzzle </span>
+                         <span class="span_class" id="Sktechimagination_id">5. sketch your imagination</span>
+                    </div>
+
+               </div>
+               <!-- event card  -->
+               <div class="eventcard">
+                    <h2 class="card_head">Management</h2>
+
+                    <div class="evenbtn"><button class="card_btn" id="menagement_btn">Events</button>
+                    </div>
+
+                    <div class="menu_container" id="managment_menu">
+
+                         <span class="span_class" id="snakeladder_id">1. snake & ladder</span>
+                         <span class="span_class" id="treasurehunt_id">2. treasure hunt</span>
+                         <span class="span_class" id="meltdown_id">3. melt down</span>
+                         <span class="span_class" id="bollywood_id">4. bollywood bounza</span>
+                         <span class="span_class" id="sreejan_id">5. sreejan</span>
+                         <span class="span_class" id="blindflod_id">6. blind fold</span>
+                         <span class="span_class" id="dashingfold_id">7. dashing dem</span>
+
+                    </div>
+
+               </div>
+               <!-- event card  -->
+               <div class="eventcard">
+                    <h2 class="card_head">Civil</h2>
+                    <div class="evenbtn"><button class="card_btn" id="civil_btn">Events</button></div>
+                    <div class="menu_container" id="civil_menu">
+
+                         <span class="span_class" id="jengablock_id">1.jenga block
+                              competition</span>
+                         <span class="span_class" id="arcbridge_id">2. arc bridge</span>
+                         <span class="span_class" id="ttt_id">3. tic tac toe</span>
+                         <span class="span_class" id="Nirmaan_id">4. nirmaan</span>
+
+                    </div>
+
+               </div>
+               <!-- event card  -->
+               <div class="eventcard">
+                    <h2 class="card_head">Robotic</h2>
+                    <div class="evenbtn"><button class="card_btn" id="robotics_btn">Events</button></div>
+
+                    <div class="menu_container" id="robotic_menu">
+                         <span class="span_class" id="roborace_id">1. robo race</span>
+                         <!-- <span class="span_class" id="robosoccer_id">2. robo soccer</span> -->
+                         <!-- <span class="span_class" id="robowar_id">3. robo war</span> -->
+                         <span class="span_class" id="linefollwer_id">2. Line follwer</span>
+                         <span class="span_class" id="pickplace_id">3. pick place</span>
+                         <span class="span_class" id="Electronicjunkyard_id">4.electronic junk yard</span>
+                    </div>
+               </div>
+               <!-- event card  -->
+               <div class="eventcard">
+                    <h2 class="card_head">enterprenuership</h2>
+                    <div class="evenbtn"><button class="card_btn" id="citronics_special_btn">Events</button></div>
+
+                    <div class="menu_container" id="citronicsspecial_menu">
+
+                         <!-- <span class="span_class" id="DJ_id">1. DJ</span> -->
+                         <span class="span_class" id="ygt_id">1. youth got talent</span>
+                         <span class="span_class" id="d2d_id">2. dare to develop d2d</span>
+                         <span class="span_class" id="pushpa_id">3. pushpa the enterprenuer</span>
+                         <span class="span_class" id="moneyhist_id">4. money heist</span>
+                         <span class="span_class" id="rlgl_id">5. red light green light</span>
+
+
+                    </div>
+               </div>
+
+
+               <!-- event card  -->
+               <div class="eventcard">
+                    <h2 class="card_head">Pharma</h2>
+                    <div class="evenbtn"><button class="card_btn" id="pharma_btn">Events</button></div>
+
+                    <div class="menu_container" id="pharma_menu">
+
+                         <span class="span_class" id="pharmainovatsia_id">1. Pharmainovatsia</span>
+                         <span class="span_class" id="Modelepharmeceutics_id">2. Modele pharmeceutics</span>
+                         <span class="span_class" id="PharmaDisenoconceptual_id">3. Pharma Diseno conceptual</span>
+                    </div>
+
+               </div>
+               <!-- event card  -->
+               <div class="eventcard">
+                    <h2 class="card_head">Software</h2>
+                    <div class="evenbtn"><button class="card_btn" id="software_btn">Events</button></div>
+
+                    <div class="menu_container" id="software_menu">
+
+                         <!-- <span class="span_class" id="sudoku_id">1. sudoku</span> -->
+                         <!-- <span class="span_class" id="codetrix_id">2. Code trix</span> -->
+                         <!-- <span class="span_class" id="Blindcoding_id">3. Blind coding</span> -->
+                         <span class="span_class" id="inomanthan_id">1. Ino manthan</span>
+                         <span class="span_class" id="Bestgoogler_id">2. Best googler</span>
+                         <span class="span_class" id="Beatthebug_id">3. Beat the bug</span>
+                         <span class="span_class" id="simongame_id">4. simmon game</span>
+                         <span class="span_class" id="quizophile_id">5. quizophile</span>
+                         <!-- <span class="span_class" id="Codechemistry_id">7. Code chemistry</span> -->
+                         <span class="span_class" id="codedecode_id">6. code decode</span>
+                    </div>
+
+               </div>
+               <!-- event card  -->
+               <div class="eventcard">
+                    <h2 class="card_head">National quiz</h2>
+                    <div class="evenbtn"><button class="card_btn" id="national_btn">Events</button></div>
+                    <div class="menu_container" id="national_menu">
+
+                         <span class="span_class" id="Nationalquiz_id">1. National quiz</span>
+                    </div>
+               </div>
+               <!-- event card  -->
+               <div class="eventcard">
+                    <h2 class="card_head">on the spot</h2>
+                    <div class="evenbtn"><button class="card_btn" id="national_btn">Events</button></div>
+                    <div class="menu_container" id="ONthespot_id">
+
+                         <span class="span_class" id="pubg_id">1. pubg(solo,duet,squad)</span>
+                         <span class="span_class" id="handleg_id">2. handleg challenge </span>
+                         <span class="span_class" id="aeroplanetoss_id">3. aeroplan toss</span>
+                         <span class="span_class" id="browniantennis"> 4. brownian tennis</span>
+
+
+                         <span class="span_class" id="rongoli_id">5. rangoli</span>
+                         <span class="span_class" id="sodacanroll_id">6. soda can roll challenge</span>
+                    </div>
+
+               </div>
+               <!-- event card  -->
+               <div class="eventcard">
+                    <h2 class="card_head">sports</h2>
+                    <div class="evenbtn"><button class="card_btn" id="national_btn">Events</button></div>
+                    <div class="menu_container" id="national_menu">
+
+                         <span class="span_class" id="Boxcricket_id">1. box cricket</span>
+                         <span class="span_class" id="chess_id">2. chess </span>
+
+
+                    </div>
+
+               </div>
+               <!-- event card  -->
+               <div class="eventcard">
+                    <h2 class="card_head">adventurous</h2>
+                    <div class="evenbtn"><button class="card_btn" id="citronics_special_btn">Events</button></div>
+
+                    <div class="menu_container" id="citronicsspecial_menu">
+
+                         <!-- <span class="span_class" id="DJ_id">1. DJ</span> -->
+                         <span class="span_class" id="roadies_id">1. roadies</span>
+
+
+                    </div>
+               </div>
+
+               <!-- event card  -->
+               <div class="eventcard">
+                    <h2 class="card_head"> photography</h2>
+                    <div class="evenbtn"><button class="card_btn" id="citronics_special_btn">Events</button></div>
+
+                    <div class="menu_container" id="citronicsspecial_menu">
+
+                         <!-- <span class="span_class" id="DJ_id">1. DJ</span> -->
+                         <span class="span_class" id="photography_id">1. photography(phone & dslr)</span>
+                         <span class="span_class" id="reels_id">2.reels</span>
+
+
+                    </div>
+               </div>
+
+          </div>
+
+     </div>
+
+
+
+     <!-- dyanamic features  -->
+     <!-- ther is no use for the outer conter it only used to fetch the data  -->
+     <div class="event_outercontainer" id="dynamicfetch">
+          <!-- <div id="arrow_id">  =></div> -->
+          <div class="event_innercontainer" id="innercontainer_arrow">
+               <div class="headofevents">
+                    <h1 class="event_title" id="title"></h1>
+               </div>
+               <img class="cross_logo" id="cross" src="./media/x-mark.png" alt="cross logo">
+               <div>
+                    <h2 class="discription_head">Description</h2>
+                    <h3 class="data_description" id="description">
+                    </h3>
+
+               </div>
+               <div class="price_container">
+                    <h3 class="registration_price">Registration Fee : <span id="rprice"></span>/Rs
+                    </h3>
+                    <h3 id="f_price" class="price_money">Price money :</h3>
+                    <p> First price : <span id="firstprice"></span>/Rs</p>
+                    <p id="s_price"> second price : <span id="secondprice"></span>/Rs</p>
+                    <p id="t_price"> Third price :<span id="thirdprice"></span>/Rs</p>
+                    <p id="c_price"> Consolation Prizess:<span id="Consolation_prices"></span>/Rs</p>
+                    <br>
+                    <br>
+                    <h2>Event head : </h2>
+                    <h3 id="allcore"
+                         style="color: rgb(240, 255, 31);font-weight: bolder;letter-spacing:2px;word-spacing: 2px;">
+                    </h3>
+               </div>
+
+               <div class="guidline_class">
+                    <h2 class="guilines_heading">Guidlines</h2>
+                    <ul id="guideline"></ul>
+
+               </div>
+               <button class="btn-grad" id="close">Close</button>
+          </div>
+
+
+     </div>
+
+     <!-- adding footer section here  -->
+     <div class="footercontainer">
+          <div class="footerlinks">
+               <div class="footerlink_wrap">
+                    <div class="items_links">
+                         <h3>Contact us</h3>
+                         <p>Email : citronics@cdgi.edu.in</p>
+                         <p>Phone no. :7312538874</p>
+                         <p id="address" style="cursor:pointer">Address : Gram umrikheda near toll naka, khandwa road
+                              ,Indore</p>
+                    </div>
+                    <div class="items_links">
+                         <h3><a href="pdf/Citronics-2K22 Brochure.pdf">Brochure</a></h3>
+                    </div>
+                    <div class="items_links">
+                         <h3><a href="#">Timelines</a></h3>
+                    </div>
+                    <div id="map">
+                         <iframe
+                              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.049118875101!2d75.88668611476139!3d22.614640885161126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fb28a5660d8b%3A0x2a7a0698a930c80f!2sChameli%20Devi%20Group%20of%20Institutions!5e0!3m2!1sen!2sin!4v1647026898708!5m2!1sen!2sin"
+                              width="600" height="450" style="border:0;" class="map" allowfullscreen=""
+                              loading="lazy"></iframe>
+                    </div>
+                    <div class="items_links" id="links">
+                         <h3>Follow us</h3>
+                         <p class="hlinks"><img class="logoimg" src="./media/instagram.png" alt=""><a
+                                   href="https://www.instagram.com/cdgi_indore/">
+                                   Instagram</a> </p>
+                         <p class="hlinks"><img class="logoimg" src="./media/facebook.png" alt=""> <a class="logoimg"
+                                   href="https://www.facebook.com/cdgiindore">Facebook</a> </p>
+                         <!-- <p> <a href="">Twitter</a> </p> -->
+                         <p class="hlinks"><img class="logoimg" src="./media/youtube.png" alt=""> <a class="logoimg"
+                                   href="https://www.youtube.com/channel/UCWaFgrq4Yoemo1Ij1HQCalg">Youtube</a> </p>
+                    </div>
+               </div>
+          </div>
+          <h2 class="websiterights">Designed by <a
+                    href="https://twitter.com/Priyans07647551?t=SrfWN6QpvJhK0qMToQtZHw&s=09" class="orname">Priyanshu
+                    Joshi</a> and <a href="https://instagram.com/crazyboy_divyanshu?utm_medium=copy_link"
+                    class="orname">Divyanshu
+                    Sharma</a></h2>
+     </div>
+
+     <!-- rights are there  -->
+
+</body>
+<script src="./data.js">
+
+</script>
+<script src="./events.js"></script>
+<script src="./main2.js"></script>
+<script>
+     let remove = () => {
+          document.getElementById("map").style.display = "none"
+          document.getElementById("links").style.display = "block"
+     }
+     document.getElementById("map").style.display = "none"
+     document.getElementById("address").addEventListener("mousemove", () => {
+          document.getElementById("map").style.display = "block"
+          document.getElementById("links").style.display = "none"
+
+          setTimeout(remove, 8000);
+     })
+
+
+</script>
+
+</html>

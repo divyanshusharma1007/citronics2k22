@@ -10,13 +10,12 @@ data = {
 
 "MAKE IT RUN....MAKE IT RIGHT....MAKE IT FAST... "
 
-
-Assets Requirement: Computer Lab with Projector`,
+`,
                registrationfee: "100",
                prizemoney: {
                     firstprice: "2000",
                     secondprice: "1000",
-                    thirdprice: null,
+                    thirdprice: `500`,
                     c_price: null
                },
                guidelines: [
@@ -46,10 +45,11 @@ Assets Requirement: Computer Lab with Projector`,
                     date: null
                },
                cordinator: {
-                    first: `Mr. Sachine Sharma`,
-                    second: `Mr. Paras Bhanopiya`,
+                    first: `Miss Divya Jain`,
+                    second: null,
+                    third: null,
                     evenhead: {
-                         name: ": Divya Jain  ",
+                         name: null,
                          contactnumber: null
                     }
                }
@@ -62,7 +62,9 @@ Assets Requirement: Computer Lab with Projector`,
                
                It’s only stood a chance of winning when your idea solves problem. An idea will be only called as Inno Manthon idea when it provides a solution for the issue in society with the help of technology or coding.
                
-               Assets Requirement: Computer Lab with Internet connection and projector.
+
+               "Ready ... Aim ... Fire"
+             
                `,
                registrationfee: '320',
                prizemoney: {
@@ -74,17 +76,15 @@ Assets Requirement: Computer Lab with Projector`,
                guidelines: [
                     `Participating team should contain maximum 4 participants.  `,
                     ` On the basis below points the winners will be going to be declared: -
- a) Topic of presentation (include new idea, possible outcome and
-implemented development)
- b) Presentation skills
- c) Judges review `,
+           a) Topic of presentation (include new idea, possible outcome and implemented development)
+           b) Presentation skills
+           c) Judges review `,
 
                     ` Some important things ‐
- a) Professional appearance and poise throughout the presentation.
- b) Convey of idea and message should be clear
- c) Knowledge of your research topic
- d) Ability to answer the questions that are directly or indirectly related to
-your topic.`,
+           a) Professional appearance and poise throughout the presentation.
+           b) Convey of idea and message should be clear
+           c) Knowledge of your research topic
+           d) Ability to answer the questions that are directly or indirectly related to your topic.`,
                     `Participants are free to bring their own laser pointers, hand pointers, anything regarding to make their presentation effective.`,
                     `Participants are requested to carry their own CD or Pen drive (in which presentation is their) without any issue (Virus, any other). Floppy disk should not be used.`,
                     `After the event the E- certificate will be provided.`,
@@ -108,10 +108,11 @@ your topic.`,
                     date: null
                },
                cordinator: {
-                    first: `Mr. Vishal Trivedi`,
-                    second: `Mr. Ashutosh Khemariya`,
+                    first: `Miss. Prachi Koshti`,
+                    second: `Mr. Nishant Jaiswal`,
+                    third: null,
                     evenhead: {
-                         name: " Prachi Koshti & Nishant Jaiswal",
+                         name: null,
                          contactnumber: null
                     }
                }
@@ -124,15 +125,13 @@ your topic.`,
               This event is all about the general question, video link and photos have to find out by the participants in same manner as it asked with the help of Google. Participants have to find the answers of question by googling.
               
               “CHOOSE…. JOY, CHOOSE…. HAPPY, CHOOSE….TO…. SHINE….”
-              
-              Assets Requirement: Computer Lab with good Internet Connection,
-google chrome, projector, buzzers/bells and speaker.
+            
 `,
-               registrationfee: "120",
+               registrationfee: "100",
                prizemoney: {
-                    firstprice: "1000",
-                    secondprice: "500",
-                    thirdprice: null,
+                    firstprice: "2000",
+                    secondprice: "1000",
+                    thirdprice: `500`,
                     c_price: null
                },
                guidelines: [
@@ -161,10 +160,11 @@ google chrome, projector, buzzers/bells and speaker.
                     date: null
                },
                cordinator: {
-                    first: `Mr. Ankit Chakrawarti`,
+                    first: 'Mr. Khushhal Gupta',
                     second: null,
+                    third: null,
                     evenhead: {
-                         name: "Khushhal Gupta",
+                         name: null,
                          contactnumber: null
                     }
                }
@@ -173,13 +173,12 @@ google chrome, projector, buzzers/bells and speaker.
           quizophile:
           {
                tittle: "QUIZOPHILE",
-               description: `This is a team event; each team consists of four members. All the teams will be provided their separate table on which there will be a bell. Questions will be put up on projector screen after seeing which the team which has to be answer.
+               description: `This is a team event each team consists of four members. All the teams will be provided their separate table on which there will be a bell. Questions will be put up on projector screen after seeing which the team which has to be answer.
                
                "WINNER…. NEVER…. QUIT”
 
 
-               Assets Requirement: Computer Lab with Internet Connection,
-projector, buzzer/bell & A4 size paper
+          
                `,
                registrationfee: "200",
                prizemoney: {
@@ -193,9 +192,9 @@ projector, buzzer/bell & A4 size paper
 
                     `There are total 2 rounds:
 a) Round 1: Quiz
- (i) where they have to press buzzer/bell after seeing the question to answer.
- (ii) for correct answer +5 points will be awarded.
-(iii) for wrong answer -5 points will be deducted.
+ (i) Fhere they have to press buzzer/bell after seeing the question to answer.
+ (ii) For correct answer +5 points will be awarded.
+(iii) For wrong answer -5 points will be deducted.
 (iv) If the team is not able to answer, they can pass the question to other
  teams.
  (v) If the teams pass the question to other teams, then -1 will be deducted
@@ -203,10 +202,9 @@ from score.
  (vi) Once a question is passed the team cannot give an answer later.
  (vii) Only 5 teams will be qualified to the next round.
 b) Round 2: Rapid Quiz
- (i) Each team get chance of 1 to 2 minutes to answer any number of
-questions.
- (ii) for correct answer +5 points will be awarded.
- (iii) for wrong answer -5 points will be deducted.
+ (i) Each team get chance of 1 to 2 minutes to answer any number of questions.
+ (ii) For correct answer +5 points will be awarded.
+ (iii) For wrong answer -5 points will be deducted.
  (iv) If the team pass the question, then question will be changed.`,
                     `Participants are not allowed to use their mobile phones or any other electronic device during the event.`,
                     `Judge’s decision will be final.`,
@@ -220,10 +218,11 @@ questions.
                     date: null
                },
                cordinator: {
-                    first: `Ms. Madhu Sharma`,
+                    first: `Mr. Karun Mourya`,
                     second: null,
+                    third: null,
                     evenhead: {
-                         name: " Karun Mourya",
+                         name: null,
                          contactnumber: null
                     }
                },
@@ -244,12 +243,12 @@ questions.
 
               “BE…. THE…. EXCEPTION”
 
-              Assets Requirement: Computer Lab with Internet connection, headphones and projector.
+           
                `,
                registrationfee: "100",
                prizemoney: {
-                    firstprice: "1500",
-                    secondprice: "500",
+                    firstprice: "2000",
+                    secondprice: "1000",
                     thirdprice: null,
                     c_price: null
                },
@@ -258,8 +257,7 @@ questions.
                     `Once the participants start the game, participant cannot restart the game. `,
                     `Participants are not allowed to bring mobile phone or any type of electronic devices.`,
                     `The decision of judges shall be final.`,
-                    `Any type of nuisance or misbehave with judge, coordinator or volunteer, the
-participant immediately will be disqualified.`,
+                    `Any type of nuisance or misbehave with judge, coordinator or volunteer, the participant immediatel will be disqualified.`,
                     `Maximum time limit of the game will be 15 minutes.`,
                ],
                venueandtiming: {
@@ -268,8 +266,9 @@ participant immediately will be disqualified.`,
                     date: null
                },
                cordinator: {
-                    first: `Ms. Madhu Sharma`,
-                    second: null,
+                    first: `Miss Mahima Chauhan `,
+                    second: `Miss Kirti Patel`,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -287,17 +286,17 @@ participant immediately will be disqualified.`,
           codedecode:
           {
                tittle: "CODE DECODE",
-               description: `In this event, teams will be given a code and input which they will use to dry run and it will give the output, which will be a hint to the next clue. There will be total 3 clues. After first round only 5 teams will be able to qualify to the second round and only 3 teams will be able to qualify for third round.
-
+               // Change the description on hold
+               description: `This event is basically based on treasure hunt theme. In this event, we will provide a code to the team, which they will use to dry run and it will give a output, which will be a hint to the next clue. In the last clue, there will be a PC which they have to unlock. The team which unlock the PC first, they will be winner.
 
 “CREATIVITY….IS…. INTELLIGENCE….HAVING…. FUN”
 
-            Assets Requirement: Computer Lab with Internet Connection and A4 size paper. Envelope, glue, pins and sticky notes [square].
+            
                `,
                registrationfee: "200",
                prizemoney: {
-                    firstprice: "1500",
-                    secondprice: "1000",
+                    firstprice: "2000",
+                    secondprice: "1200",
                     thirdprice: null,
                     c_price: null
                },
@@ -315,10 +314,11 @@ participant immediately will be disqualified.`,
                     date: null
                },
                cordinator: {
-                    first: `Mr. Vikrant Sharma`,
+                    first: `Mr. Murtaza Barwahwala`,
                     second: null,
+                    third: null,
                     evenhead: {
-                         name: "Murtaza Barwahwala ",
+                         name: null,
                          contactnumber: null
                     }
                },
@@ -364,6 +364,7 @@ participant immediately will be disqualified.`,
                cordinator: {
                     first: null,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -456,6 +457,7 @@ participant immediately will be disqualified.`,
                cordinator: {
                     first: null,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -501,6 +503,7 @@ participant immediately will be disqualified.`,
                cordinator: {
                     first: null,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -558,6 +561,7 @@ Round 3: Selling round
                cordinator: {
                     first: null,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -601,6 +605,7 @@ Round 3: Selling round
                cordinator: {
                     first: null,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -657,6 +662,7 @@ Runner up: Exciting Prize
                cordinator: {
                     first: null,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -697,6 +703,7 @@ Runner up: Exciting Prize
                cordinator: {
                     first: null,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -719,7 +726,7 @@ Runner up: Exciting Prize
                     `Participants has to use their one and at a time`,
                     `Their will be three members in one team.`,
                     ` Only two members are permitted to play at a time.`,
-                    `Participants has to complete the game in 30 min.`,
+                    `Participants has to complete the game in 10 min.`,
                     ` Team will be disqualifying if not reach on given time.`
                     , `If the placing of block is horizontal then 1 mark will be awarded to them`,
                     ` If the placing of block is vertical then 3 marks will be awarded to them`,
@@ -743,11 +750,12 @@ Runner up: Exciting Prize
                cordinator: {
                     first: null,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
                     }
-               }
+               },
           },
           Nirmaan:
           {
@@ -788,6 +796,7 @@ Runner up: Exciting Prize
                cordinator: {
                     first: null,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -826,6 +835,7 @@ Runner up: Exciting Prize
                cordinator: {
                     first: null,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -845,7 +855,7 @@ Round 2nd:  Simple mechanism.
 Round 3rd:  Basic technical questions.
 Event Date: 
 25/mar/2022: The 1ST and 2nd round of the competition will be held on this day. 
-26/mar/2022: The final round of the event will be held on this day and winner will be declared on this day.
+25/mar/2022: The final round of the event will be held on this day and winner will be declared on this day.
                
                `,
                registrationfee: "200",
@@ -875,13 +885,14 @@ Event Date:
                     date: null
                },
                cordinator: {
-                    first: `Mr. Hitesh Koshti`,
+                    first: `Mr. Ishwar Ujiwal `,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
                     }
-               }
+               },
           },
           cad:
           {
@@ -917,8 +928,9 @@ Event Date:
                     date: null
                },
                cordinator: {
-                    first: `Mr. Vipul Jain`,
+                    first: `Mr. Devanshu patidar`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -959,8 +971,9 @@ Event Date:
                     date: null
                },
                cordinator: {
-                    first: ` Mr. Anant Dixit`,
+                    first: `Mr. Bijendra singh Malviya`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -980,10 +993,10 @@ Event Date:
                },
                guidelines: [
                     `In this event you have to participate individually.`,
-                    `Prticipants have to solve the puzzle with in time limit (60sec.)`,
+                    `Prticipants have to solve the puzzle with in time limit (60 seconds)`,
                     `Participants have to guess the right combination of the puzzle to switch on the bulb.`,
                     `Students also participate in between the event.`,
-                    `You have to participate again when you disqualify in 1 time.`
+                    `You have to participate again when you disqualify in 60 seconds.`
                ]
                ,
                updatedondate: {
@@ -1001,13 +1014,14 @@ Event Date:
                     date: null
                },
                cordinator: {
-                    first: `Mr. Anant Dixit`,
+                    first: `Mr . Himanshu Patel `,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
                     }
-               }
+               },
           },
           Sktechimagination:
           {
@@ -1015,8 +1029,8 @@ Event Date:
                description: `Sketch your Imagination is the free hand sketch event organized by Mechanical Engineering Department. This Event is open to all and the participants has to sketch on certain themes provided in a stipulated given time.`,
                registrationfee: "50",
                prizemoney: {
-                    firstprice: `800`,
-                    secondprice: `550`,
+                    firstprice: `1000`,
+                    secondprice: `750`,
                     thirdprice: null,
                     c_price: null
                },
@@ -1030,7 +1044,7 @@ Sketching theme: -
 2.Patriotism.
 3.Environment.
 4.Regional diversity.
-Swachh Bharat Abhiyan`
+5.0Swachh Bharat Abhiyan`
                ]
                ,
                updatedondate: {
@@ -1048,13 +1062,14 @@ Swachh Bharat Abhiyan`
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
+                    first: `Mr. Kartik Verma `,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
                     }
-               }
+               },
           },
      },
 
@@ -1064,7 +1079,8 @@ Swachh Bharat Abhiyan`
           dance:
           {
                tittle: " Dance",
-               description: ``,
+               description: `
+               Note: College entry 50rs included with this entry fees `,
                registrationfee: "300 (for solo) /500(for duo)",
                prizemoney: {
                     firstprice: `1500 (solo)/ 2500(duo)`,
@@ -1117,8 +1133,9 @@ b. The competition music must not contain inappropriate, lewd, or offensive lang
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Mr. Chayan Jain`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1128,7 +1145,7 @@ b. The competition music must not contain inappropriate, lewd, or offensive lang
           openmic:
           {
                tittle: " OPEN MIC",
-               description: ``,
+               description: `  Note: College entry 50rs included with this entry fees`,
                registrationfee: "200",
                prizemoney: {
                     firstprice: `2000`,
@@ -1164,8 +1181,9 @@ b. The competition music must not contain inappropriate, lewd, or offensive lang
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Mr. Chetanya Mandecha`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1175,7 +1193,7 @@ b. The competition music must not contain inappropriate, lewd, or offensive lang
           bandwar:
           {
                tittle: "  Band War",
-               description: ``,
+               description: `  Note: College entry 50rs included with this entry fees`,
                registrationfee: " 1200",
                prizemoney: {
                     firstprice: ` 10,000`,
@@ -1210,8 +1228,9 @@ b. The competition music must not contain inappropriate, lewd, or offensive lang
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Mr . Viraj Mahoday`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1224,8 +1243,27 @@ b. The competition music must not contain inappropriate, lewd, or offensive lang
           roborace:
           {
                tittle: " ROBO RACE",
-               description: ``,
-               registrationfee: "300",
+               description: `Robo Race is an event for competing the robots by participating in the race with hurdles. In this competition robots need to traverse the path and cross the hurdles to reach the destination. The performance of the robots will be compared on the basis of the time taken for completion of task and penalties to identify the winner.
+               
+               ROBOT SPECIFICATIONS-
+
+1. The dimension of the bot should not exceed 30*30*30 cm.
+2. The bot may be wired or wireless or autonomous.
+3. The maximum voltage to power the bot should not exceed 24V(DC power supply only). However a tolerance of 5 % is acceptable.
+4. The maximum power should not exceed 50W.
+5. Bring your own AC to DC converters or own Batteries any type (li-ion, lead acid etc).
+6. Robots must be insulated for particular hurdles.
+7. Readymade toys car are not allowed.
+8. The wire (for wired bots) should remain slack during the complete run.
+
+
+
+Arena Specifications
+
+1. The track surface and course line may have unevenness.
+2. There might be abrupt angles, but these will not exceed 30 degrees.
+3. There will be certain obstacles in the race track which will try to slow down the robot.`,
+               registrationfee: "300/reregistraion 200",
                prizemoney: {
                     firstprice: `5000`,
                     secondprice: `3000`,
@@ -1234,21 +1272,23 @@ b. The competition music must not contain inappropriate, lewd, or offensive lang
                },
                guidelines: [
                     `Teams should register their robots for participating in the event.`,
-                    `The robot should follow the robot specifications provided. Any deviation from the mentioned specifications will lead to disqualification.`,
-                    `Changing of Robots will be strictly prohibited and if found to do so leads disqualification `,
-                    `A team can consist of a maximum of 4 members.`,
+                    `The robot should follow the robot specifications provided. Any deviation from the mentioned specifications will lead to disqualification.`
+                    , `Changing of Robots will be strictly prohibited and if found to do so leads disqualification`,
+                    ` A team can consist of a maximum of 4 members.`,
                     `The competition is based on time trail system. There will be a qualifying round for each team in which the team shall compete with each other to reach checkpoints.`,
-                    `Every check-point crossed will be of 10 points.`,
-                    `If the Robot crosses a checkpoint, and moves off track, then the Robot would be placed back on the previous checkpoint crossed. A maximum of three chances will be given to each team to place their bot in designated check point. `,
-                    `Once the race begins, three hand touches are allowed, if you are taking hand touch you have to start from last check point.`,
-                    `During the race, team would be given 3 skips.`,
-                    `Top 25 teams from the round two will be qualified for round three. If total teams in round two are less than 50 than only 20 teams will qualify for round three.`,
-                    `AC supply of 230V, 50Hz will be provided in the college. `,
-                    `If in case, a situation of technical problem related to bot occurs, then the team can take a Technical Break of 1 minute.`,
-                    `Only 1 timeout will be given to any participant and the participant will repair it without any outside help.`,
-                    `Registration fees is non-refundable`,
-                    `Minimum 10 entries are must otherwise event may be cancelled and, in that case, registration fees will be refunded.`,
-                    `Unethical behaviour could lead to disqualification. Faculty-coordinators have all the rights to take final decision for any matter during the event. The decision of the judges will be final and abiding. Argument with judges in any form will lead to the disqualification of the team. `,
+                    ` Every check-point crossed will be of 10 points.`,
+                    ` If the Robot crosses a checkpoint, and moves off track, then the Robot would be placed back on the previous checkpoint crossed. A maximum of three chances will be given to each team to place their bot in designated check point.`,
+                    ` Once the race begins, three hand touches are allowed, if you are taking hand touch you have to start from last check point.`,
+                    ` During the race, team would be given 3 skips.`,
+                    `Top 25 teams from the first round will be qualified for round two. If total teams in round first are less than 50 than only 20 teams will qualify for round two.`,
+                    ` AC supply of 230V, 50Hz will be provided in the college.`,
+                    ` If in case, a situation of technical problem related to bot occurs, then the team can take a Technical Break of 1 minute.`,
+                    ` Only 1 timeout will be given to any participant and the participant will repair it without any outside help.`,
+                    ` Registration fees is non-refundable.`,
+                    `Minimum 10 entries are must otherwise event may be cancelled and in that case, registration fees will be refunded.`,
+                    `.If  less than 20 entries only First prize will be distributed.`,
+                    ` Unethical behaviour could lead to disqualification. Faculty-coordinators have all the rights to take final decision for any matter during the event. The decision of the judges will be final and abiding. Argument with judges in any form will lead to the disqualification of the team.`,
+                    `Re-registration should be done within 45 minute time period of getting disqualified.`,
                     `Rules may subject to change`
                ]
                ,
@@ -1267,8 +1307,9 @@ b. The competition music must not contain inappropriate, lewd, or offensive lang
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Miss Bhagyashree Sisodia `,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1279,63 +1320,68 @@ b. The competition music must not contain inappropriate, lewd, or offensive lang
           {
                tittle: " LINE FOLLOWER",
                description: `DESIGN AN AUTONOMOUS ROBOT (BOT) WHICH WILL MOVE ONLY ALONG A PREDETERMINED TRACK. ROBOT
-TRACES THE TRACK AT THE STARTING POINT, FOLLOW THE PATH AND GO TO THE END POINT AT THE LEAST TIME
+TRACES THE TRACK AT THE STARTING POINT, FOLLOW THE PATH AND GO TO THE END POINT AT THE LEAST TIME.
 
 
-POINT AT THE LEAST TIME
-D.IMENSIONS AND FABRICATIONS-
-1  THE DIMENSION OF THE BOT SHOULD NOT EXCEED 30*30*30 CM.
-2.  THE BOT MAY BE WIRED OR WIRELESS OR AUTONOMOUS (POWER SUPPLY).
-3.  THE POWER SOURCE SHOULD BE LESS THAN 12V AND 36W (DC POWER SUPPLY ONLY).
-4.  MAXIMUM 5% TOLERANCE IS ALLOWABLE.
-5  WE WILL PROVIDE ON BOARD 230V, 50HZ AC POWER SUPPLY.
-6  BRING YOUR OWN AC TO DC CONVERTERS OR OWN BATTERIES ANY TYPE (LI-ION, LEAD ACID ETC).
-7  ROBOTS MUST BE INSULATED FOR PARTICULAR HURDLES.
-8  READYMADE TOYS CAR ARE NOT ALLOWED.
-9  THE WIRE (FOR WIRED BOTS) SHOULD REMAIN SLACK DURING THE COMPLETE RUN.
+DIMENSIONS AND FABRICATIONS-
+1. The dimension of the bot should not exceed 30*30*30 cm.
+2. The bot may be wired or wireless or autonomous (Power Supply).
+3. The Power source should be less than 12V and 36W (DC power supply only).
+4. Maximum 5% tolerance is allowable.
+5. We will provide on board 230V, 50Hz AC power supply.
+6. Bring your own AC to DC converters or own Batteries any type (li-ion, lead acid etc).
+7. Robots must be insulated for particular hurdles.
+8. Readymade toys car are not allowed.
+9. The wire (for wired bots) should remain slack during the complete run.
 
 
-EVENT DESCRIPTION
 ROUND 1- ELIMINATION ROUND
-1.  READYMADE LEGO KITS ARE NOT ALLOWED.
-2.  THE ELIMINATION ROUND WILL CONSIST OF ONLY PLAIN TRACK.
-3.  NO TWO LINES WILL BE LOCATED IN THE RECENT VICINITY OF EACH OTHER. THE TRACK WILL BE OF WHITE COLOR ON A BLACK BACKGROUND. HOWEVER, THE WHITE COLOR MAY NOT BE COMPLETELY UNIFORM AND THERE MIGHT BE SLIGHT VARIATION IN COLOR.
-4.  THE ARENA IS MADE OF WOOD AND SUCH THAT THERE IS SUFFICIENT FRICTION FOR THE ROBOT.
-5  THE WIDTH OF THE LINE WILL BE CONSTANT (2.5CM) THROUGHOUT THE TRACK WITH A POSSIBLE ERROR OF 5%.
-6.  THE FINAL ROUND WILL ALSO INCLUDE ELEVATIONS AND SMALL BRIDGES ON THE TRACK.
-7.  THERE SHALL BE DISCONTINUITIES IN THE TRACK IN FINAL ROUND.
-8.  ROBOTS SHOULD BE AUTONOMOUS.
-9.  DATA LINKS TO OFF-BOARD COMPUTERS ARE ALLOWED.
-10.  NO WETWARE (HUMAN)OPERATED REMOTE CONTROLS WILL BE PERMITTED.
 
+1. Readymade Lego kits are not allowed.
+2. The elimination round will consist of only plain track.
+3. No two lines will be located in the recent vicinity of each other. The track will be of white color on a black background. However, the white color may not be completely uniform and there might be slight variation in color.
+4. The arena is made of wood and such that there is sufficient friction for the robot.
+5. The width of the line will be constant (2.5cm) throughout the track with a possible error of 5%.
+
+
+ROUND 2- FINAL ROUND
+1. The final round will  include elevations and small bridges on the track.
+2. There shall be discontinuities in the track in final round.
+3. Robots should be autonomous.
+4. Data links to off-board computers are allowed.
+5. No wetware (human)operated remote controls will be permitted.
 
 RE-REGISTRATION RULES-
-1.  RE-REGISTRATION IS ONLY ALLOWED IN ELIMINATION ROUND.
-2.  RE-REGISTRATION CAN DO ONLY AFTER THE COMPLETION OF FIRST CHECK POINT OF ELIMINATION ROUND.
+1. Re-registration is only allowed in Elimination round.
+2. Re-registration can do only after the completion of First Check Point of Elimination round.
+3. Re-registration should be done within 45 minute time period of getting disqualified.
 `,
-               registrationfee: "300",
+               registrationfee: "300(only)/ (500)with roborace/ reregistration(200)",
                prizemoney: {
-                    firstprice: `3000`,
+                    firstprice: `5000`,
                     secondprice: `2000`,
                     thirdprice: null,
                     c_price: null
                },
                guidelines: [
+                    ` Teams should register their robots for participating in the event.`,
                     `Changing of Robots will be strictly prohibited and if found to do so leads disqualification.`,
                     ` The judgment decision will be considered as final decision.`,
-                    ` Each team will be given a time slot, delays are strictly not allowed`,
-                    ` The event consists of two rounds: - Elimination round and the Final round`,
-                    ` The teams qualifying the elimination round will be allowed to participate in the next round.`,
-                    ` Nudging/Pushing or any type of manual handling of the robot will lead to cancellation of that run.`,
+                    `Each team will be given a time slot, delays are strictly not allowed`,
+                    `The event consists of three rounds: - Elimination round and the Final round.`,
+                    `Nudging/Pushing or any type of manual handling of the robot will lead to cancellation of that run.`,
                     `Teams will be given 2 min. for calibration of the sensors before the trials.`,
                     ` If the robot gets distracted from the track will get negative marking. And the distraction will be considered as a foul.`,
                     `The organizers will ensure that the track is located within a typical indoor environment in so far as is feasible. No request to adjust the lighting shall be entertained.`,
-                    ` Any robot that loses the line course must reacquire the line at the point where it was lost, or at any check point.`,
+                    `. If the robot gets distracted from the track will get negative marking. And the distraction will be considered as a foul.`,
+                    `. Any robot that loses the line course must reacquire the line at the point where it was lost, or at any check point.`,
                     ` When any robot crosses the start line before the reference signal, the passage will be interrupted and resumed from the beginning.`,
                     `The robot should not damage the arena at any point.`,
-                    ` Max. Time given will be 5 min. (per bot) in elimination round.`,
-                    ` No. trial will be given (testing is allowed)`,
-                    `Surprise element will be there in final roundIf less than 20 teams would be participated, than only first prize would be distributed.`,
+                    `Max. Time given will be 5 min. (per bot) in elimination round.`,
+                    `No. trial will be given (testing is allowed)`,
+                    `Surprise element will be there in final round.`
+
+
                ]
                ,
                updatedondate: {
@@ -1353,8 +1399,9 @@ RE-REGISTRATION RULES-
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
+                    first: `Miss Anushree Yadav `,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1366,6 +1413,8 @@ RE-REGISTRATION RULES-
                tittle: " PICK AND PLACE",
                description: `
 PICK AND PLACE ROBOT IS THE ONE WHICH IS USED TO PICK UP AN OBJECT AND PLACE IT IN THE DESIRE LOCATION. IT CAN BE A ROBOT WITH MOVEMENT IN HORIZONTAL, VERTICAL AND ROTATIONAL AXES.
+
+
 ROBOT SPECIFICATIONS :- 
 1.THE DIMENSIONS OF THE BOT SHOULD NOT EXCEED 30CM*30CM*30CM.
 2.THE WEIGHT OF THE BOT SHOULD NOT EXCEED MORE THAN 5 KG.
@@ -1383,7 +1432,7 @@ RE-REGISTRATION RULES:-
 1.RE-REGISTRATION SHOULD BE DONE WITHIN 45 MINUTE TIME PERIOD OF GETTING DISQUALIFIED.
 2.2. RE-REGISTRATION CAN BE DONE ONLY IF THE TEAM IS DISQUALIFIED IN ROUND 1.
 `,
-               registrationfee: "300",
+               registrationfee: "300(only) /re-registration 200/+roborace (500)",
                prizemoney: {
                     firstprice: `: 5000`,
                     secondprice: `3000`,
@@ -1430,8 +1479,9 @@ RE-REGISTRATION RULES:-
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Mr. Rishabh Chouhan`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1442,8 +1492,16 @@ RE-REGISTRATION RULES:-
           Electronicjunkyard:
           {
                tittle: "Electronic junk yard",
-               description: ``,
-               registrationfee: "300 ",
+               description: `ELECTRONIC JUNK YARD is an electronic component based event in which participants have to utilize their knowledge about the electronic circuits and components. Identification of  the electronic components and design a working electronic circuit.
+               
+               EVENT SCHEDULE:
+Elimination round: Identification of components.
+Final round: Design of working electronic circuit on bred board.
+Event date:
+25/March/2022: Elimination round of the event will be held on this day.
+26/March/2022: The final round of the event will be held on this day and winner will be declared on this day.
+               `,
+               registrationfee: "100/reregistration(100) ",
                prizemoney: {
                     firstprice: `1000`,
                     secondprice: null,
@@ -1451,7 +1509,15 @@ RE-REGISTRATION RULES:-
                     c_price: null
                },
                guidelines: [
-
+                    `Mobile is not permitted during the event.`,
+                    `The judgment decision will be considered as final decision.`,
+                    ` Each team will be given a time slot, delays are strictly not allowed`,
+                    ` The event consists of two rounds: - Elimination round and the Final round.`,
+                    `The teams qualifying the elimination round will be allowed to participate in the next round.`,
+                    `Max. Time given will be 2 min. (selecting and writing component name in the sheet) in elimination round.`,
+                    ` Max. Time given will be 10 min. (Design of circuit on bred board & show the working circuit) in final round. `,
+                    `Bred board and circuit components will be provided to the participants.`,
+                    `Winner of the final round will be decided on the bases of working condition of the circuit and time utilized by the participants.`
                ]
                ,
                updatedondate: {
@@ -1469,8 +1535,9 @@ RE-REGISTRATION RULES:-
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
+                    first: `Mr. Pratham Gangrade `,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1492,9 +1559,9 @@ RE-REGISTRATION RULES:-
                     c_price: null
                },
                guidelines: [
-                    `1.You have to rich the finish line by following the prints.`,
-                    `2.Participant should complete the task with in the 50 sec.`,
-                    `3.Participants should maintain dignity and discipline.`
+                    `You have to rich the finish line by following the prints.`,
+                    `Participant should complete the task with in the 50 sec.`,
+                    `Participants should maintain dignity and discipline.`
                ]
                ,
                updatedondate: {
@@ -1512,8 +1579,9 @@ RE-REGISTRATION RULES:-
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Miss. Saniya Khan [62661 90929]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1526,9 +1594,10 @@ RE-REGISTRATION RULES:-
                tittle: "AEROPLANE TOSS",
                description: `It is interesting game in which player will throw paper planes in the circles on the board which are marked with points. 
                
-               point : 100 -150 : charges:100
-               points 50-100: 50`,
-               registrationfee: "70",
+               point : 100 -150 : :100rs
+               points 50-100: 50rsr
+               points  10-50 : 20rs`,
+               registrationfee: "30",
                prizemoney: {
                     firstprice: null,
                     secondprice: null,
@@ -1559,8 +1628,9 @@ RE-REGISTRATION RULES:-
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Miss Ritika Yadav [79998 00519]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1573,7 +1643,7 @@ RE-REGISTRATION RULES:-
                description: `An online gaming event where 100 competitors compete on a 8 x 8 km terrain to achieve the first position  `,
                registrationfee: "50 (solo)/100(duo)/200(squad)",
                prizemoney: {
-                    firstprice: `solo(500)/duo(800)/squad(High-kill Bounce) 1500`,
+                    firstprice: `solo(400)/duo(800)/squad(High-kill Bounce + 300) 1500`,
                     secondprice: null,
                     thirdprice: null,
                     c_price: null
@@ -1600,8 +1670,9 @@ RE-REGISTRATION RULES:-
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
+                    first: `Mr. Saaim Khan [8889018722]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1620,9 +1691,9 @@ RE-REGISTRATION RULES:-
                     c_price: null
                },
                guidelines: [
-                    `1.The event will comprise of three throws (Per participant).`,
-                    `2.Participant can participate in pair of two as the game will be conducted as a competition between two of them.`,
-                    `3.For single player participants -if the person has win in the first goal no further 2 chances`
+                    `The event will comprise of three throws (Per participant).`,
+                    `Participant can participate in pair of two as the game will be conducted as a competition between two of them.`,
+                    `For single player participants -if the person has win in the first goal no further 2 chances`
                ]
                ,
                updatedondate: {
@@ -1640,8 +1711,9 @@ RE-REGISTRATION RULES:-
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
+                    first: `Miss. Rincy Shirsath [62638 37072 ]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1652,10 +1724,10 @@ RE-REGISTRATION RULES:-
           {
                tittle: "Rangoli",
                description: `Rangoli is the art of making design and expressing one's idea on the floor. participants have to turn their brains on and show their magic on the floor by makig rangoli.`,
-               registrationfee: "50/-(SOLO) AND 100/-(DUO)",
+               registrationfee: "100/-(SOLO) AND 150/-(DUO)",
                prizemoney: {
-                    firstprice: null,
-                    secondprice: null,
+                    firstprice: `500(solo)/800(duo)`,
+                    secondprice: `300(solo)/500(duo)`,
                     thirdprice: null,
                     c_price: null
                },
@@ -1684,8 +1756,9 @@ RE-REGISTRATION RULES:-
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
+                    first: `Miss. Nehal Jadhav [95758 76816]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1696,9 +1769,9 @@ RE-REGISTRATION RULES:-
           {
                tittle: "soda can roll challange",
                description: `This game is a unique and fun game in which a player have to roll the can (Red Bull) on a table where multiple prize money are placed and where the can stops rolling player will get the prize accordingly. `,
-               registrationfee: "80",
+               registrationfee: "60",
                prizemoney: {
-                    firstprice: null,
+                    firstprice: `Exciting prize`,
                     secondprice: null,
                     thirdprice: null,
                     c_price: null
@@ -1728,8 +1801,9 @@ RE-REGISTRATION RULES:-
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Miss Sanskriti Bhatore [74890 39336]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1740,28 +1814,28 @@ RE-REGISTRATION RULES:-
      pharma: {
           pharmainnovatsia:
           {
-               tittle: "PHARMACO INNOVATSIA",
+               tittle: "PHARMA INNOVATSIA",
                description: `THIS IS ABOUT NOVEL /INNOVATIVE PHARMA FORMULATION WITH PERFECT RATIONAL BEHIND THE CONCEPT.
 EVENT STRATEGY:
 THE NOVEL FORMULATION SHOULD BE PREPARED AT THEIR OWN WORKPLACE AND A VIDEO CLIP OF FORMULATION PREPARED AND WELL LABELLED FORMULATION MUST BE BROUGHT BY THE PARTICIPANT AT THE TIME OF EVENT A VIDEO CLIP OF FORMULATION MUST BE BROUGHT BY THE PARTICIPANT DURING PREPARATION EXPLANATION & PROOFS OF NOVELTY OF FORMULATION POWER POINT PRESENTATION ABOUT THE RATIONAL OF INNOVATIVE FORMULATION. PARTICIPANT MUST BE PRESENT ALONG WITH THEIR FORMULATION. INVESTIGATION BASED STUDY.`,
                registrationfee: "300",
                prizemoney: {
-                    firstprice: `1500`,
-                    secondprice: `1000`,
+                    firstprice: `Cash Price `,
+                    secondprice: `Cash Price`,
                     thirdprice: null,
                     c_price: null
                },
                guidelines: [
-                    `1.Number of team members in every event 3 student 1 mentor.`,
-                    `2.Each team member must be having a valid college ID.`,
-                    `3.Please bring photocopy of the fee receipt.`,
-                    `4.Time limit of explanation / presentation of every participants `,
-                    `5.The participating College will have to bear all the expenses of the participation the event.`,
-                    `6.Two copies of brief write-up about the exhibit/model/project should be prepared and presented at the time of registration and judgment.`,
-                    `7.The decision of the Judges would be final.`,
-                    `8.Minimum 10 entries are must otherwise event will be cancelled`,
-                    `9.Amount is non-refundable.`,
-                    `10.Participants reporting time is 9 AM.`
+                    `Number of team members in every event 3 student 1 mentor.`,
+                    `Each team member must be having a valid college ID.`,
+                    `Please bring photocopy of the fee receipt.`,
+                    `Time limit of explanation / presentation of every participants `,
+                    `The participating College will have to bear all the expenses of the participation the event.`,
+                    `Two copies of brief write-up about the exhibit/model/project should be prepared and presented at the time of registration and judgment.`,
+                    `The decision of the Judges would be final.`,
+                    `Minimum 10 entries are must otherwise event will be cancelled`,
+                    `Amount is non-refundable.`,
+                    `Participants reporting time is 9 AM.`
                ]
                ,
                updatedondate: {
@@ -1779,8 +1853,9 @@ THE NOVEL FORMULATION SHOULD BE PREPARED AT THEIR OWN WORKPLACE AND A VIDEO CLIP
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
+                    first: ` Miss. Shubhani Chouhan [ 70002 40758 ]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1797,8 +1872,8 @@ EVENT STRATEGY:
 THE WORKING MODEL SHOULD BE PREPARED AT THEIR OWN WORKPLACE WHICH MUST BE BROUGHT BY THE PARTICIPANT AT THE TIME OF EVENT EXPLANATION OF THE MODEL. PARTICIPANT MUST BE PRESENT ALONG WITH THEIR MODEL. PROBLEM SOLVING STRATEGY SHOULD BE FOCUSED IN THE MODEL CONSTRUCTION IF POSSIBLE. ONLY ELECTRICAL POINTS WILL BE PROVIDED BY THE HOST INSTITUTION `,
                registrationfee: "300",
                prizemoney: {
-                    firstprice: `1500`,
-                    secondprice: `1000`,
+                    firstprice: `Cash Price `,
+                    secondprice: `Cash Price`,
                     thirdprice: null,
                     c_price: null
                },
@@ -1830,8 +1905,9 @@ THE WORKING MODEL SHOULD BE PREPARED AT THEIR OWN WORKPLACE WHICH MUST BE BROUGH
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
+                    first: `Mr. Rohit Rathore [8435452258]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1850,8 +1926,8 @@ EVENT STRATEGY:
 PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR ANIMATED VIDEOS. PARTICIPANT MUST GIVE JUSTIFICATION BEHIND THE CONCEPT, PROBLEMS AND SOLUTIONS ASSOCIATED WITH IT.`,
                registrationfee: "300 ",
                prizemoney: {
-                    firstprice: `1500 `,
-                    secondprice: `1000`,
+                    firstprice: `Cash Price `,
+                    secondprice: `Cash Price`,
                     thirdprice: null,
                     c_price: null
                },
@@ -1862,10 +1938,10 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     `Please bring photocopy of the fee receip`,
                     `The participating College will have to bear all the expenses of the participation the event.`,
                     `Two copies of brief write-up about the exhibit/model/project should be prepared and presented at the time of registration and judgment.`,
-                    `7.The decision of the Judges would be final.`,
-                    `8.Minimum 10 entries are must otherwise event will be cancelled`,
-                    `9.Amount is non-refundable.`,
-                    `10.Participants reporting time is 9 AM.`
+                    `The decision of the Judges would be final.`,
+                    `Minimum 10 entries are must otherwise event will be cancelled`,
+                    `Amount is non-refundable.`,
+                    `Participants reporting time is 9 AM.`
                ]
                ,
                updatedondate: {
@@ -1883,8 +1959,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
+                    first: `Miss Mamta Verma [94245 82821]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1904,20 +1981,20 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     c_price: null
                },
                guidelines: [
-                    `1.This is an individual event; maximum 2 members can pitch their idea. `,
-                    `2.Each pitch duration is of 5 minutes and 5 minutes for cross questioning by judges.`,
-                    `3.Participant should have their PPT with themselves.`,
-                    `4.Ideas must be different from each other.`,
-                    `5.Judges can ask any questions about your startup/idea.`,
-                    `6.Participants can make counter offer to judges if they are interested in the idea presented.`,
-                    `7.Registration fees will not be refundable in any case.`,
-                    `8.If any participant seen violating rules/regulations, misbehaving, any doing malpractices will be disqualified.`
+                    `This is an individual event; maximum 2 members can pitch their idea. `,
+                    `Each pitch duration is of 5 minutes and 5 minutes for cross questioning by judges.`,
+                    `Participant should have their PPT with themselves.`,
+                    `Ideas must be different from each other.`,
+                    `Judges can ask any questions about your startup/idea.`,
+                    `Participants can make counter offer to judges if they are interested in the idea presented.`,
+                    `Registration fees will not be refundable in any case.`,
+                    `If any participant seen violating rules/regulations, misbehaving, any doing malpractices will be disqualified.`
                ]
                ,
                updatedondate: {
                     date: null,
                     rules: [
-                         `Minimum 50 entries are must otherwise event will be cancelled.`,
+                         `Minimum 10 entries are must otherwise event will be cancelled.`,
                          `The Amount paid is non-refundable.`,
                          `If the event is cancelled then that amount can be used to register in another event.`
                     ]
@@ -1929,8 +2006,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `MR. Harshwardhan Sharma [62659 95406]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -1949,20 +2027,20 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     c_price: null
                },
                guidelines: [
-                    `1.Event will be of 3 rounds consisting of the same tasks.`,
-                    `2.The team should consist of minimum 2 members and maximum 4 members. Individual participation is not allowed.`,
-                    `3.There will be no elimination round.`,
-                    `4.All the products to be manufactured (shapes to be made), their pricing and dimensions will be disclosed at the beginning of the event only.`,
-                    `5.Participants are not allowed to use personal belongings to create the products specified.`,
-                    `6.The product (Shapes) manufactured should be of the specified dimensions or else it won't be considered for pricing. Minor changes in the dimensions are acceptable.`,
-                    `7.Team can buy the equipment in the selling window which will be open in between each round.`,
-                    `8.In case of misbehavior or violation of rules, the team will be immediately disqualified.`
+                    `Event will be of 3 rounds consisting of the same tasks.`,
+                    `The team should consist of minimum 2 members and maximum 4 members. Individual participation is not allowed.`,
+                    `There will be no elimination round.`,
+                    `All the products to be manufactured (shapes to be made), their pricing and dimensions will be disclosed at the beginning of the event only.`,
+                    `Participants are not allowed to use personal belongings to create the products specified.`,
+                    `The product (Shapes) manufactured should be of the specified dimensions or else it won't be considered for pricing. Minor changes in the dimensions are acceptable.`,
+                    `Team can buy the equipment in the selling window which will be open in between each round.`,
+                    `In case of misbehavior or violation of rules, the team will be immediately disqualified.`
                ]
                ,
                updatedondate: {
                     date: null,
                     rules: [
-                         `Minimum 50 entries are must otherwise event will be cancelled.`,
+                         `Minimum 10 entries are must otherwise event will be cancelled.`,
                          `The Amount paid is non-refundable.`,
                          `If the event is cancelled then that amount can be used to register in another event.`
                     ]
@@ -1974,8 +2052,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Miss Ishika Pradhan [99772 20151]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2011,7 +2090,7 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                updatedondate: {
                     date: null,
                     rules: [
-                         `Minimum 50 entries are must otherwise event will be cancelled.`,
+                         `Minimum 10 entries are must otherwise event will be cancelled.`,
                          `The Amount paid is non-refundable.`,
                          `If the event is cancelled then that amount can be used to register in another event.`
                     ]
@@ -2023,8 +2102,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
-                    second: null,
+                    first: `MR. Mayank Yadav[74770 85667]`,
+                    second: `Miss Neha Yadav[70677 08264]`,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2033,10 +2113,10 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
           },
           pushpa:
           {
-               tittle: " PUSHPA The Entrepreneur",
+               tittle: " PUSHPA: The Entrepreneur",
                description: `Pushpa The Entrepreneur is a competition where an individual have to prove themselves as an Entrepreneur by showing their selling skills. Each individual have to sell the given item. 
                
-               Winner : Pushpa trophy and excition prize`,
+               Winner : Pushpa trophy and exciting prize`,
                registrationfee: "30",
                prizemoney: {
                     firstprice: null,
@@ -2045,18 +2125,18 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     c_price: null
                },
                guidelines: [
-                    `1.In this event, only individual can participate.`,
-                    `2.Participant has to sell the given item to judges as well as audience.`,
-                    `3.Time duration of a Sell Pitch is 3 minutes.`,
-                    `4.If any participant found in misbehavior or in any act of cheating/ violating rules, he/she will immediately be disqualified.`,
-                    `5.Audience can also participate in between the event.`,
-                    `6.The Amount paid is non-refundable.`
+                    `In this event, only individual can participate.`,
+                    `Participant has to sell the given item to judges as well as audience.`,
+                    `Time duration of a Sell Pitch is 3 minutes.`,
+                    `If any participant found in misbehavior or in any act of cheating/ violating rules, he/she will immediately be disqualified.`,
+                    `Audience can also participate in between the event.`,
+                    `The Amount paid is non-refundable.`
                ]
                ,
                updatedondate: {
                     date: `25/03/2022`,
                     rules: [
-                         `Minimum 50 entries are must otherwise event will be cancelled.`,
+                         `Minimum 10 entries are must otherwise event will be cancelled.`,
                          `The Amount paid is non-refundable.`,
                          `If the event is cancelled then that amount can be used to register in another event.`
                     ]
@@ -2068,8 +2148,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Miss Shruti Malviya [ 89640 20708 ]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2100,7 +2181,7 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                updatedondate: {
                     date: null,
                     rules: [
-                         `Minimum 50 entries are must otherwise event will be cancelled.`,
+                         `Minimum 10 entries are must otherwise event will be cancelled.`,
                          `The Amount paid is non-refundable.`,
                          `If the event is cancelled then that amount can be used to register in another event.`
                     ]
@@ -2112,8 +2193,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
-                    second: null,
+                    first: `Miss Rashika Jain[94068 32995]`,
+                    second: `Mr. Adarsh Gour[91317 46558]`,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2127,7 +2209,7 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
           rodies:
           {
                tittle: "Roadies",
-               description: ``,
+               description: `Be the part of THRILLED , ADVENTUROUS , CHALLENGING a power packet Journey of Roadies Come Participate and Challenge yourself to are you capable to of being a Rodies .`,
                registrationfee: "150",
                prizemoney: {
                     firstprice: `1200`,
@@ -2160,8 +2242,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: "Mr. Rahul Prajapat",
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2218,8 +2301,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
+                    first: null,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2270,8 +2354,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
+                    first: null,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2286,8 +2371,8 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
           snakeladder:
           {
                tittle: " Snake & Ladders",
-               description: ``,
-               registrationfee: "50",
+               description: `Duet Game`,
+               registrationfee: "50/person",
                prizemoney: {
                     firstprice: `ATTRACTIVE PRIZES`,
                     secondprice: null,
@@ -2318,8 +2403,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Miss Darshika Patidar [6263025177]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2330,7 +2416,7 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
           {
                tittle: "Treasure Hunt",
                description: ``,
-               registrationfee: "250",
+               registrationfee: "250 per team",
                prizemoney: {
                     firstprice: `ATTRACTIVE PRIZES`,
                     secondprice: null,
@@ -2338,11 +2424,26 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     c_price: null
                },
                guidelines: [
-                    `Minimum number of participants would be 1 and maximum would be `,
-                    `The participants are responsible for their belongings.`,
-                    `College uniform is mandatory.`,
-                    `Judgement will be based on- Presentation, Expression, Body language and Clarity of Content.`,
-                    `Other rules and regulations will be provided on the spot.`
+                    ' In this event, you have to participate in team and mandatory team size is 5 members.',
+
+                    ' Rounds will be decided according to the registration of the teams.',
+
+                    ' After each round is completed, you have to come with the whole team to the judges according to the time.',
+
+                    '.The team which will have all the clues in hand and reach to Treasure first wins',
+
+                    ' During find out the treasure along with clue you have to perform an activity.',
+
+
+
+                    'Skipping a clue or leaving your team behind will lead to immediate disqualification and It is mandatory to have the slip of every clue.'
+                    ,
+                    ` If you found other team's clue by any chance, do not tamper it. A violation of this rule will also lead in immediate disqualification`,
+
+                    `All the clues of all teams are different and are located at different places but final destination i.e.the Treasure is same.`,
+
+                    ` Each team will have to report on the event venue on time, And if you come late and the game are kicked out, the event committee will not be responsible for that.`,
+                    'Round Wise rules and regulations will be provided on the spot  '
                ]
                ,
                updatedondate: {
@@ -2360,8 +2461,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Mr. Harshit Sharma[99075 98084]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2371,8 +2473,8 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
           meltdown:
           {
                tittle: "Melt Down",
-               description: ``,
-               registrationfee: "50",
+               description: `Adventerious game with more fun`,
+               registrationfee: "50/person",
                prizemoney: {
                     firstprice: `ATTRACTIVE PRIZES`,
                     secondprice: null,
@@ -2382,7 +2484,7 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                guidelines: [
                     `Participants will have to remove all sharp and the pointed items before getting into activities.`,
                     `Participants are advised to wear comfortable clothes excluding Sarees and Dhotis.`,
-                    `* Other rules and regulations will be provided on the spot.`
+                    ` Other rules and regulations will be provided on the spot.`
                ]
                ,
                updatedondate: {
@@ -2397,8 +2499,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Mr. Yash dubey [72240 22301]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2442,8 +2545,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Mr. Gourav Nandwal`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2452,9 +2556,27 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
           },
           sreejan:
           {
-               tittle: "Srijan",
-               description: ``,
-               registrationfee: "50",
+               tittle: "Srijan ( The Ad-Mad show) ",
+               description: `
+               WHAT IS AD - MAD SHOW?
+AD MAD SHOW is an ‘Advertisement Making Competition’ for engineering and B School
+students to showcase their creativity in Marketing products and services. Its Objective is to
+acquaint the students about promotional strategies in marketing through advertisements.
+BRIEF
+Group of one to five students, will inact any advertisement designed and created by them.
+Students can use video clips or Audios for the product they choose related to the product
+chosen. Participants are suggested that their Ad should contain the essentials of
+advertisement, i.e. Clarity, persuasive in nature, creativity, appeal and simplicity.
+The themes are:
+1. Product master ( where they advertise a product of their choice)
+2. Recreate me (where participants can recreate any ad of their choice)
+3. Service master (where they advertise a service of their choice)
+4. The UNSEEN Talent (advertise an unseen talent and spread awareness)
+Participants can come up with an ad considering ANY ONE of the above themes . It’s simple
+and clear that he/she will have to come up with advertisements showcasing all talent and
+creativity they got in them.
+               `,
+               registrationfee: "150/group or an Individual",
                prizemoney: {
                     firstprice: `ATTRACTIVE PRIZES`,
                     secondprice: null,
@@ -2462,13 +2584,27 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     c_price: null
                },
                guidelines: [
-                    `Minimum number of participants would be1 and maximum would be 3.`,
-                    `A student can not be part of more than one team.`,
-                    `Duration of presentation should be max.5 min. Marks will be deducted in case of exceeding the limit.`,
-                    `The participants are responsible for their belongings.`,
-                    `College uniform is mandatory.`,
-                    `Judgement will be based on- Presentation, Expression, Body language and Clarity of Content.`,
-                    `Other rules and regulations will be provided on the spot.`
+                    `Rules
+1. Can be done in a team of maximum 5 people or an individual.
+2. Maximum Time Limit for performing the Ad is 5 minutes.
+3. The Advertisement will be in Hindi/English language.
+4. There should be no exposure to biasness against any caste or community or
+religion,etc. through your performance.
+5. Use of vulgar expression and language will lead to disqualification of the team.`,
+                    `CRITERIA OF JUDGEMENT
+1. Way of conveying the information of the product
+2. Impact of the advertisement
+3. Innovation and creativity
+4. Content-information, Awareness.
+5. Appeal of the advertisement
+6. Coordination
+7. Overall Script and Play`,
+                    `AWARDS
+• Top 1 team will win attractive prizes / Rs.
+• Decisions of the judges will be final.
+• Certificate of participation.`
+
+
                ]
                ,
                updatedondate: {
@@ -2483,8 +2619,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: "Harsh Sen[7987393963] , harshsencdips@gmail.com",
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2499,7 +2636,7 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
 1.Round 1st: Following Direction Game.
 2.Round 2nd:Stone Collection Game.
 3.Round 3rd: Stick The Tape Game.`,
-               registrationfee: "50",
+               registrationfee: "100/Team",
                prizemoney: {
                     firstprice: `ATTRACTIVE PRIZES`,
                     secondprice: null,
@@ -2507,7 +2644,7 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     c_price: null
                },
                guidelines: [
-                    `Total students Ina group 2 to 4.`,
+                    `IN this event , you have to participate in team and mandatory , Team must have 4 members `,
                     `Students in group help the blindfolded student around an obstacle course.`,
                     `Be extra careful that no one gets hurt and that everyone is playing as they should.`,
                     `Student cant interchange their position from other student who have already started to play game .`,
@@ -2530,8 +2667,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: null,
+                    first: `Mr. Mustafa Khan [70003 29366]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2540,9 +2678,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
           },
           dashingfold:
           {
-               tittle: "Dashing Dem",
+               tittle: "Dashing Demv(Rampwalk)",
                description: ``,
-               registrationfee: "150",
+               registrationfee: "150/per",
                prizemoney: {
                     firstprice: `ATTRACTIVE PRIZES`,
                     secondprice: null,
@@ -2557,7 +2695,8 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     `Maximum number of participants would be 2 and minimum would be 1.`,
                     `Vulgarity is strongly prohibited. Any form of obscenity will lead to de-barring the participant from the contest.`,
                     `Each team member must be having a valid college ID.`,
-                    `Round wise rules and regulations would be provided on the spot.`
+                    `Round wise rules and regulations would be provided on the spot.`,
+                    ``
                ]
                ,
                updatedondate: {
@@ -2575,8 +2714,9 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                     date: null
                },
                cordinator: {
-                    first: `Mr. Kaustubh Kale`,
+                    first: `Mr. Aadarsh Mourya [96917 27295]`,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null
@@ -2598,8 +2738,8 @@ PARTICIPANT CAN PRESENT THE CONCEPT /HYPOTHESIS AS POWER POINT PRESENTATION OR A
                `,
                registrationfee: "200",
                prizemoney: {
-                    firstprice: 3000,
-                    secondprice: 1500,
+                    firstprice: "3000",
+                    secondprice: '1500',
                     thirdprice: null,
                     c_price: null
                },
@@ -2632,6 +2772,7 @@ d) 50-50`,
                cordinator: {
                     first: null,
                     second: null,
+                    third: null,
                     evenhead: {
                          name: null,
                          contactnumber: null

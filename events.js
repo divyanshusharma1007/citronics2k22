@@ -86,6 +86,10 @@ let fetchobj = (obj, margin = 775) => {
           document.getElementById("guideline").appendChild(li);
      });
 
+
+     document.getElementById("core1").innerText = obj.cordinator.first;
+     document.getElementById("core2").innerText = obj.cordinator.second;
+     document.getElementById("core3").innerText = obj.cordinator.third;
      document.getElementById("dynamicfetch").style.top = "120px"
      // document.getElementById("arrow_id").style.display="block";
      document.getElementById("innercontainer_arrow").style.marginTop = `${margin}px`;
@@ -101,38 +105,38 @@ for (item of document.getElementsByClassName("span_class")) {
           body = document.body.style.width;
           // data of Entertainment card
           if (id == "dance_id") {
-               document.getElementById("allcore").innerText = "Miss. Pragya bhopche and Mr.  Arjun patidar";
+               document.getElementById("allcore").innerText = "Miss. Pragya bhopche [9098605105] and Mr.  Arjun patidar [9926285954]";
                fetchobj(data.entertainment.dance)
           }
           if (id == "openmic_id") {
-               document.getElementById("allcore").innerText = "Miss.Pragya bhopche and Mr. Arjun patidar";
+               document.getElementById("allcore").innerText = "Miss. Pragya bhopche [9098605105] and Mr.  Arjun patidar [9926285954]";
                fetchobj(data.entertainment.openmic)
           }
           if (id == "bandwar_id") {
-               document.getElementById("allcore").innerText = "Miss. Pragya bhopche and  Mr .Arjun patidar";
+               document.getElementById("allcore").innerText = "Miss. Pragya bhopche [9098605105] and Mr.  Arjun patidar [9926285954]";
                fetchobj(data.entertainment.bandwar)
           }
 
           // data of mechtronics card 
           // converted into the new
           if (id == "cad_id") {
-               document.getElementById("allcore").innerText = "Mr. Ritik jaiswal";
+               document.getElementById("allcore").innerText = "Mr. Ritik jaiswal[81200 27119] & Mr. Harsh Pahadiya [83051 80448]";
                fetchobj(data.mechanical.cad)
           }
           if (id == "AutoJunkies_id") {
-               document.getElementById("allcore").innerText = "Mr. Ritik jaiswal"
+               document.getElementById("allcore").innerText = "Mr. Ritik jaiswal[81200 27119] & Mr. Harsh Pahadiya [83051 80448]";
                fetchobj(data.mechanical.AutoJunkies)
           }
           if (id == "officeball_id") {
-               document.getElementById("allcore").innerText = "Mr. Ritik jaiswal"
+               document.getElementById("allcore").innerText = "Mr. Ritik jaiswal[81200 27119] & Mr. Harsh Pahadiya [83051 80448]";
                fetchobj(data.mechanical.officeball)
           }
           if (id == "switchingpuzzle_id") {
-               document.getElementById("allcore").innerText = "Mr . Ritik jaiswal"
+               document.getElementById("allcore").innerText = "Mr. Ritik jaiswal[81200 27119] & Mr. Harsh Pahadiya [83051 80448]";
                fetchobj(data.mechanical.switchingpuzzle)
           }
           if (id == "Sktechimagination_id") {
-               document.getElementById("allcore").innerText = "Mr . Ritik jaiswal"
+               document.getElementById("allcore").innerText = "Mr. Ritik jaiswal[81200 27119] & Mr. Harsh Pahadiya [83051 80448]";
                fetchobj(data.mechanical.Sktechimagination)
           }
 
@@ -192,19 +196,19 @@ for (item of document.getElementsByClassName("span_class")) {
           // robotics event start 
 
           if (id == "roborace_id") {
-               document.getElementById("allcore").innerText = "Mr . Ajay bangar & Mr. Kailash choudhary";
+               document.getElementById("allcore").innerText = "Mr. Ajay bangar [78694 76374] & Mr. Kailash choudhary [95755 42300]";
                fetchobj(data.robotics.roborace, 575)
           }
           if (id == "Electronicjunkyard_id") {
-               document.getElementById("allcore").innerText = "Mr. Ajay bangar & Miss . Kailash choudhary";
+               document.getElementById("allcore").innerText = "Mr. Ajay bangar [78694 76374] & Mr. Kailash choudhary [95755 42300]";
                fetchobj(data.robotics.Electronicjunkyard, 575)
           }
           if (id == "linefollwer_id") {
-               document.getElementById("allcore").innerText = "Mr. Ajay bangar & Mr. Kailash choudhary";
+               document.getElementById("allcore").innerText = "Mr. Ajay bangar [78694 76374] & Mr. Kailash choudhary [95755 42300]";
                fetchobj(data.robotics.linefollower, 575)
           }
           if (id == "pickplace_id") {
-               document.getElementById("allcore").innerText = "Mr. Ajay bangar & Mr. Kailash choudhary";
+               document.getElementById("allcore").innerText = "Mr. Ajay bangar [78694 76374] & Mr. Kailash choudhary [95755 42300]";
                fetchobj(data.robotics.pickandplace, 575)
           }
 
@@ -221,7 +225,7 @@ for (item of document.getElementsByClassName("span_class")) {
                else {
                     fetchobj(data.eship.ygt, 1500)
                }
-               document.getElementById("allcore").innerText = "Mr. Jay patidar  & Miss. Mansi parmar";
+               document.getElementById("allcore").innerText = "Mr. Jay Kumar Patidar [97995 75565] & Miss. Mansi Parmar [99933 58603]";
           }
           if (id == "d2d_id") {
                if (document.body.clientWidth < 1300) {
@@ -236,7 +240,7 @@ for (item of document.getElementsByClassName("span_class")) {
                     fetchobj(data.eship.d2d, 1500)
                }
 
-               document.getElementById("allcore").innerText = "Mr. Jay patidar  & Miss . Mansi parmar";
+               document.getElementById("allcore").innerText = "Mr. Jay Kumar Patidar [97995 75565] & Miss. Mansi Parmar [99933 58603]";
 
           }
           if (id == "moneyhist_id") {
@@ -252,7 +256,7 @@ for (item of document.getElementsByClassName("span_class")) {
                     fetchobj(data.eship.moneyhist, 1500)
                }
 
-               document.getElementById("allcore").innerText = "Mr . Jay patidar  & Mr. Mansi parmar";
+               document.getElementById("allcore").innerText = "Mr. Jay Kumar Patidar [97995 75565] & Miss. Mansi Parmar [99933 58603]";
 
           }
           // 
@@ -268,7 +272,7 @@ for (item of document.getElementsByClassName("span_class")) {
                else {
                     fetchobj(data.eship.pushpa, 1500)
                }
-               document.getElementById("allcore").innerText = "Mr. Jay patidar  & Miss. Mansi parmar";
+               document.getElementById("allcore").innerText = "Mr. Jay Kumar Patidar [97995 75565] & Miss. Mansi Parmar [99933 58603]";
           }
           if (id == "rlgl_id") {
                if (document.body.clientWidth < 1300) {
@@ -282,7 +286,7 @@ for (item of document.getElementsByClassName("span_class")) {
                else {
                     fetchobj(data.eship.rlgl, 1500)
                }
-               document.getElementById("allcore").innerText = "Mr. Jay patidar  & Mr. Mansi parmar";
+               document.getElementById("allcore").innerText = "Mr. Jay Kumar Patidar [97995 75565] & Miss. Mansi Parmar [99933 58603]";
           }
 
           // pharma events 
@@ -299,7 +303,7 @@ for (item of document.getElementsByClassName("span_class")) {
                     fetchobj(data.pharma.pharmainnovatsia)
                }
 
-               document.getElementById("allcore").innerText = "Mr . Aman bundela  ";
+               document.getElementById("allcore").innerText = "Mr . Aman bundela [8962202886] ";
 
           }
           if (id == "Modelepharmeceutics_id") {
@@ -315,7 +319,7 @@ for (item of document.getElementsByClassName("span_class")) {
                     fetchobj(data.pharma.modelpharmaeutique)
                }
 
-               document.getElementById("allcore").innerText = "Mr. Aman bundela";
+               document.getElementById("allcore").innerText = "Mr . Aman bundela [8962202886] ";
 
           }
           if (id == "PharmaDisenoconceptual_id") {
@@ -330,8 +334,7 @@ for (item of document.getElementsByClassName("span_class")) {
                else {
                     fetchobj(data.pharma.Pharmadisenoconceptual)
                }
-
-               document.getElementById("allcore").innerText = "Mr . Aman bundela";
+               document.getElementById("allcore").innerText = "Mr . Aman bundela [8962202886] ";
 
           }
 
@@ -350,7 +353,7 @@ for (item of document.getElementsByClassName("span_class")) {
                     fetchobj(data.software.Beatthebug)
                }
 
-               document.getElementById("allcore").innerText = "Mr. Harshit parmar  & Mr. Aman kushwah";
+               document.getElementById("allcore").innerText = `Miss Harshita Parmar [74770 84913] & Mr. Aman Kushwa[79743 92752]`;
 
 
           }
@@ -368,11 +371,11 @@ for (item of document.getElementsByClassName("span_class")) {
                     fetchobj(data.software.quizophile)
                }
 
-               document.getElementById("allcore").innerText = "Mr. Harshit parmar  & Mr. Aman kushwah";
+               document.getElementById("allcore").innerText = `Miss Harshita Parmar [74770 84913] & Mr. Aman Kushwa[79743 92752]`;
 
           }
           if (id == "simongame_id") {
-               fetchobj(data.software.simongame)
+               // fetchobj(data.software.simongame)
 
 
                if (document.body.clientWidth < 1300) {
@@ -387,7 +390,7 @@ for (item of document.getElementsByClassName("span_class")) {
                     fetchobj(data.software.simongame)
                }
 
-               document.getElementById("allcore").innerText = "Mr .Harshit parmar  & Mr. Aman kushwah";
+               document.getElementById("allcore").innerText = `Miss Harshita Parmar [74770 84913] & Mr. Aman Kushwa[79743 92752]`;
           }
           if (id == "inomanthan_id") {
 
@@ -403,7 +406,7 @@ for (item of document.getElementsByClassName("span_class")) {
                     fetchobj(data.software.innomanthan)
                }
 
-               document.getElementById("allcore").innerText = "Mr . Harshit parmar  & Mr. Aman kushwah";
+               document.getElementById("allcore").innerText = `Miss Harshita Parmar [74770 84913] & Mr. Aman Kushwa[79743 92752]`;
 
 
 
@@ -421,7 +424,7 @@ for (item of document.getElementsByClassName("span_class")) {
                     fetchobj(data.software.Bestgoogler)
                }
 
-               document.getElementById("allcore").innerText = "Mr . Harshit parmar  & Mr .  Aman kushwah";
+               document.getElementById("allcore").innerText = `Miss Harshita Parmar [74770 84913] & Mr. Aman Kushwa[79743 92752]`;
           }
           if (id == "codedecode_id") {
 
@@ -436,7 +439,7 @@ for (item of document.getElementsByClassName("span_class")) {
                else {
                     fetchobj(data.software.codedecode)
                }
-               document.getElementById("allcore").innerText = "Mr. Harshit parmar  & Mr. Aman kushwah";
+               document.getElementById("allcore").innerText = `Miss Harshita Parmar [74770 84913] & Mr. Aman Kushwa[79743 92752]`;
           }
           // nationalquizstart
           if (id == "Nationalquiz_id") {
@@ -510,7 +513,7 @@ for (item of document.getElementsByClassName("span_class")) {
                else {
                     fetchobj(data.onthespotevents.handleg, 1500)
                }
-               document.getElementById("allcore").innerText = "Mr. Kunal gourav";
+               document.getElementById("allcore").innerText = "Mr. Kunal gourav [81209 51155]";
           }
           if (id == "aeroplanetoss_id") {
                if (document.body.clientWidth < 1300) {
@@ -525,8 +528,7 @@ for (item of document.getElementsByClassName("span_class")) {
                     fetchobj(data.onthespotevents.aeroplanetoss, 1500)
                }
 
-               document.getElementById("allcore").innerText = "Mr . Kunal gourav";
-
+               document.getElementById("allcore").innerText = "Mr. Kunal gourav [81209 51155]";
           }
           if (id == "pubg_id") {
 
@@ -541,7 +543,7 @@ for (item of document.getElementsByClassName("span_class")) {
                else {
                     fetchobj(data.onthespotevents.pubg, 1500)
                }
-               document.getElementById("allcore").innerText = " Mr . Kunal gourav";
+               document.getElementById("allcore").innerText = "Mr. Kunal gourav [81209 51155]";
           }
           if (id == "browniantennis") {
                if (document.body.clientWidth < 1300) {
@@ -556,7 +558,7 @@ for (item of document.getElementsByClassName("span_class")) {
                     fetchobj(data.onthespotevents.browniantennis, 1500)
                }
 
-               document.getElementById("allcore").innerText = "Mr . Kunal gourav";
+               document.getElementById("allcore").innerText = "Mr. Kunal gourav [81209 51155]";
 
           }
           if (id == "rongoli_id") {
@@ -572,7 +574,7 @@ for (item of document.getElementsByClassName("span_class")) {
                else {
                     fetchobj(data.onthespotevents.rangoli, 1500)
                }
-               document.getElementById("allcore").innerText = "Mr . Kunal gourav";
+               document.getElementById("allcore").innerText = "Mr. Kunal gourav [81209 51155]";
 
           }
           if (id == "sodacanroll_id") {
@@ -588,7 +590,7 @@ for (item of document.getElementsByClassName("span_class")) {
                     fetchobj(data.onthespotevents.sodacanroll, 1500)
                }
 
-               document.getElementById("allcore").innerText = "Mr . Kunal gourav";
+               document.getElementById("allcore").innerText = "Mr. Kunal gourav [81209 51155]";
           }
 
           // adventrious
@@ -604,7 +606,7 @@ for (item of document.getElementsByClassName("span_class")) {
                else {
                     fetchobj(data.adventuious.rodies, 1500)
                }
-               document.getElementById("allcore").innerText = "Mr . Rahul prajapat";
+               document.getElementById("allcore").innerText = null;
           }
           // photo graphy
           if (id == "photography_id") {
